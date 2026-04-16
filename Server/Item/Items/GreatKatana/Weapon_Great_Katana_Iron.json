@@ -1,13 +1,41 @@
 {
   "Parent": "Template_Great_Katana",
   "Quality": "Uncommon",
-  "ItemLevel": 15,
+  "ItemLevel": 20,
   "TranslationProperties": {
-    "Name": "Iron Great Katana"
+    "Name": "server.items.Weapon_Great_Katana_Iron.name"
   },
   "Model": "Items/Weapons/GreatKatana/Iron.blockymodel",
   "Texture": "Items/Weapons/GreatKatana/Iron_Great_Katana.png",
   "Icon": "Icons/ItemsGenerated/Weapon_Great_Katana_Iron.png",
+  "Recipe": {
+    "TimeSeconds": 3.5,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 10
+      },
+      {
+        "ItemId": "Ingredient_Leather_Light",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Great_Katana"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
   "IconProperties": {
     "Scale": 0.31,
     "Rotation": [
@@ -27,12 +55,12 @@
           "Parent": "Weapon_Great_Katana_Primary_Swing_Down_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 18
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
         }
       ]
@@ -43,12 +71,12 @@
           "Parent": "Weapon_Great_Katana_Primary_Stab_From_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 28
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
         }
       ]
@@ -59,12 +87,12 @@
           "Parent": "Weapon_Great_Katana_Primary_Swing_Up_Left_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 22
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
         }
       ]
@@ -75,12 +103,12 @@
           "Parent": "Weapon_Great_Katana_Primary_Swing_Down_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 34
             }
           },
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
         }
       ]
@@ -91,15 +119,41 @@
           "Parent": "Weapon_Great_Katana_Primary_Heavy_Swing_Damage",
           "DamageCalculator": {
             "BaseDamage": {
-              "Physical": 12
+              "Physical": 26
             }
           },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ],
           "DamageEffects": {
-            "WorldSoundEventId": "SFX_Sword_T2_Impact",
-            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
           }
         }
       ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 10,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    },
+    "Dragonwound_Projectile": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Signature_Dragonwound_Selector",
+          "ProjectileId": "Dragonwound_Slash_Iron"
+        }
+      ]
     }
-  }
+  },
+  "MaxDurability": 120
 }

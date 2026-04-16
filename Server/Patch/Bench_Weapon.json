@@ -1,0 +1,21 @@
+{
+  "_BaseAssetPath": "Server/Item/Items/Bench/Bench_Weapon.json",
+
+  "BlockType": {
+    "Bench": {
+      "Categories": [
+        {
+          "_index": 1,
+
+          "_op": "add",
+
+          "Id": "Great_Katana",
+
+          "Icon": "Icons/CraftingCategories/Armory/Great_Katana.png",
+
+          "Name": "Great Katana"
+        }
+      ]
+    }
+  }
+}

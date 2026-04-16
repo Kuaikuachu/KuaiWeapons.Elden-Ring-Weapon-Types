@@ -70,7 +70,23 @@
       ]
     },
     "RunTime": 0.3,
-    "Next": "Weapon_Great_Katana_Signature_Dragonwound_Selector"
+    "Next": {
+      "Type": "Replace",
+      "Var": "Dragonwound_Projectile",
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Signature_Dragonwound_Selector"
+        ]
+      }
+    }
   },
-  "GroundNext": "Weapon_Great_Katana_Signature_Dragonwound_Selector"
+  "GroundNext": {
+    "Type": "Replace",
+    "Var": "Dragonwound_Projectile",
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Great_Katana_Signature_Dragonwound_Selector"
+      ]
+    }
+  }
 }

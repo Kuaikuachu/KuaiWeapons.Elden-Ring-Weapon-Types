@@ -1,7 +1,7 @@
 {
   "Type": "LaunchProjectile",
   "Next": "Weapon_Great_Katana_Signature_Dragonwound_Pull",
-  "ProjectileId": "Dragonwound_Slash",
+  "ProjectileId": "Dragonwound_Slash_Template",
   "Effects": {
     "WorldSoundEventId": "SFX_Great_Katana_Dragonwound_Swing",
     "LocalSoundEventId": "SFX_Great_Katana_Dragonwound_Swing_Local",
