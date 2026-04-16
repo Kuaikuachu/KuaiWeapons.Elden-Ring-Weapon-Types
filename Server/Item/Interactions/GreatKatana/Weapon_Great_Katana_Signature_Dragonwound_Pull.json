@@ -1,0 +1,49 @@
+{
+  "Type": "ApplyForce",
+  "MouseSensitivityAdjustmentTarget": 0.25,
+  "MouseSensitivityAdjustmentDuration": 0.1,
+  "Effects": {
+    "CameraEffect": "Battleaxe_Downstrike_Jump"
+  },
+  "AdjustVertical": true,
+  "VerticalClamp": [
+    10,
+    30
+  ],
+  "Force": 12,
+  "Direction": {
+    "X": 0,
+    "Y": 2,
+    "Z": 0.5
+  },
+  "ChangeVelocityType": "Set",
+  "VelocityConfig": {
+    "AirResistance": 0.99,
+    "AirResistanceMax": 0.98,
+    "GroundResistance": 0.94,
+    "GroundResistanceMax": 0.82,
+    "Threshold": 3.0,
+    "Style": "Linear"
+  },
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 0.05,
+    "Effects": {
+      "Trails": [],
+      "Particles": [],
+      "WaitForAnimationToFinish": false
+    }
+  },
+  "RunTime": 0.5,
+  "WaitForGround": true,
+  "GroundNext": {
+    "Type": "Simple",
+    "RunTime": 0.25,
+    "Effects": {
+      "ItemAnimationId": "DragonwoundLanding",
+      "ClearAnimationOnFinish": true,
+      "Particles": [],
+      "Trails": []
+    }
+  }
+}

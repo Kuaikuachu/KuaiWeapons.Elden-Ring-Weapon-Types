@@ -1,0 +1,18 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Dragonwound_Sword_Flame_Trail",
+      "PositionOffset": {
+        "Y": -0.1,
+        "X": 1
+      }
+    },
+    {
+      "SpawnerId": "Dragonwound_Sword_Flame_Sparks",
+      "PositionOffset": {
+        "X": 1,
+        "Y": -0.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "HitBox": {
+    "Max": {
+      "X": 0.1,
+      "Y": 0.1,
+      "Z": 0.1
+    },
+    "Min": {
+      "X": -0.1,
+      "Y": -0.1,
+      "Z": -0.1
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "Particles": [
+    {
+      "PositionOffset": {
+        "X": 0,
+        "Y": 0,
+        "Z": 0
+      },
+      "SystemId": "Dragonwound_Projectile",
+      "TargetNodeName": "",
+      "RotationOffset": {
+        "Roll": 30
+      }
+    }
+  ],
+  "Light": {
+    "Color": "#760"
+  },
+  "Model": "Items/Projectiles/Tornado.blockymodel",
+  "Texture": "Items/Projectiles/Fireball.png"
+}

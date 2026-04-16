@@ -1,0 +1,61 @@
+{
+  "Particle": {
+    "Texture": "Particles/Textures/Kuaikuachu/wave_main.png",
+    "FrameSize": {
+      "Width": 768,
+      "Height": 512
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Color": "#befaff"
+      },
+      "50": {
+        "Opacity": 0.432
+      },
+      "100": {
+        "Opacity": 1,
+        "Color": "#befaff"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 0.5,
+      "Color": "#ffffff",
+      "Scale": {
+        "X": {
+          "Min": 0.4,
+          "Max": 0.4
+        },
+        "Y": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Rotation": {
+        "Y": {
+          "Min": 90,
+          "Max": 90
+        }
+      }
+    }
+  },
+  "RenderMode": "Erosion",
+  "SpawnRate": {
+    "Max": 100,
+    "Min": 100
+  },
+  "SpawnBurst": true,
+  "MaxConcurrentParticles": 2,
+  "ParticleLifeSpan": {
+    "Min": 0.2,
+    "Max": 0.2
+  },
+  "ParticleRotateWithSpawner": true,
+  "IsLowRes": false,
+  "LightInfluence": 0.1,
+  "UseEmitDirection": true,
+  "WaveDelay": {
+    "Min": 0.15,
+    "Max": 0.15
+  }
+}

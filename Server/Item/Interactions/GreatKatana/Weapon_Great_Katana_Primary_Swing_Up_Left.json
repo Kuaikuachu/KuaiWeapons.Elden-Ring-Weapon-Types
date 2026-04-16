@@ -1,0 +1,19 @@
+{
+  "Type": "Simple",
+  "RunTime": 0.2,
+  "Effects": {
+    "ItemAnimationId": "SwingUpLeft",
+    "WorldSoundEventId": "SFX_Battleaxe_T2_Swing",
+    "LocalSoundEventId": "SFX_Battleaxe_T2_Swing_RL_Local"
+  },
+  "Next": {
+    "Type": "Replace",
+    "Var": "Swing_Down_Left_Selector",
+    "DefaultOk": true,
+    "DefaultValue": {
+      "Interactions": [
+        "Weapon_Great_Katana_Primary_Swing_Up_Left_Selector"
+      ]
+    }
+  }
+}

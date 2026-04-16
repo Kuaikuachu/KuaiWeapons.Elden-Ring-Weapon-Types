@@ -1,0 +1,44 @@
+{
+  "Radius": 0.1,
+  "Height": 0.2,
+  "PitchAdjustShot": true,
+  "SticksVertically": true,
+  "TimeToLive": 2,
+  "Damage": 60,
+  "DeathParticles": {
+    "SystemId": "Dragonwound_Death",
+    "Scale": 2
+  },
+  "DeathEffectsOnHit": true,
+  "MissSoundEventId": "SFX_Fireball_Miss",
+  "ExplosionConfig": {
+    "DamageEntities": true,
+    "DamageBlocks": false,
+    "BlockDamageRadius": 20,
+    "EntityDamageRadius": 5,
+    "EntityDamageFalloff": 1.0,
+    "Knockback": {
+      "Type": "Point",
+      "VelocityConfig": {
+        "AirResistance": 0.97,
+        "AirResistanceMax": 0.96,
+        "GroundResistance": 0.94,
+        "GroundResistanceMax": 0.3,
+        "Threshold": 3.0
+      },
+      "Force": 5,
+      "VelocityType": "Set"
+    }
+  },
+  "Appearance": "Dragonwound_Slash_Model",
+  "TerminalVelocity": 30,
+  "MuzzleVelocity": 30,
+  "DeadTime": 0,
+  "Gravity": 15,
+  "ImpactSlowdown": 0,
+  "DeadTimeMiss": 0,
+  "VerticalCenterShot": -1.5,
+  "HorizontalCenterShot": 0.2,
+  "DepthShot": 1,
+  "DeathSoundEventId": "SFX_Great_Katana_Dragonwound_Death"
+}

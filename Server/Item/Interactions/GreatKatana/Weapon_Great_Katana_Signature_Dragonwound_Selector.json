@@ -1,0 +1,40 @@
+{
+  "Type": "LaunchProjectile",
+  "Next": "Weapon_Great_Katana_Signature_Dragonwound_Pull",
+  "ProjectileId": "Dragonwound_Slash",
+  "Effects": {
+    "WorldSoundEventId": "SFX_Great_Katana_Dragonwound_Swing",
+    "LocalSoundEventId": "SFX_Great_Katana_Dragonwound_Swing_Local",
+    "Particles": [
+      {
+        "SystemId": "Mace_Signature_Slash",
+        "TargetEntityPart": "Entity",
+        "TargetNodeName": "Hip",
+        "PositionOffset": {
+          "Y": 1.5,
+          "Z": 0.5,
+          "X": -0.1
+        },
+        "RotationOffset": {
+          "Roll": 30
+        }
+      },
+      {
+        "SystemId": "Dragonwound_Sword_Flame",
+        "TargetEntityPart": "Self",
+        "TargetNodeName": "Handle"
+      }
+    ],
+    "Trails": [
+      {
+        "TrailId": "Medium_Signature",
+        "TargetEntityPart": "Self",
+        "TargetNodeName": "KatanaTip",
+        "RotationOffset": {
+          "Roll": 90
+        }
+      }
+    ],
+    "ItemAnimationId": "DragonwoundSlash"
+  }
+}

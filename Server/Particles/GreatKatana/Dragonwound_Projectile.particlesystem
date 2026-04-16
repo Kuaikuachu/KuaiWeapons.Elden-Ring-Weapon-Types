@@ -1,0 +1,38 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Dragonwound_Sparks",
+      "PositionOffset": {
+        "X": 0.0,
+        "Z": 0.0
+      },
+      "FixedRotation": false
+    },
+    {
+      "SpawnerId": "Dragonwound_Trail"
+    },
+    {
+      "SpawnerId": "Fire_Projectile_Fire_Core"
+    },
+    {
+      "SpawnerId": "Dragonwound_Main_Slash"
+    },
+    {
+      "SpawnerId": "Dragonwound_Trail_Big"
+    },
+    {
+      "SpawnerId": "Dragonwound_Distortion"
+    },
+    {
+      "SpawnerId": "Dragonwound_Extra_Slash"
+    },
+    {
+      "SpawnerId": "Dragonwound_Slash_Blur"
+    },
+    {
+      "SpawnerId": "Dragonwound_Sparks_Around"
+    }
+  ],
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

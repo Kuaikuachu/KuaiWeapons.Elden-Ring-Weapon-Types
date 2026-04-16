@@ -1,0 +1,96 @@
+{
+  "Particle": {
+    "Texture": "Particles/Textures/Kuaikuachu/wave_solid.png",
+    "FrameSize": {
+      "Width": 768,
+      "Height": 512
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 0.048,
+        "Color": "#00ebff",
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          },
+          "Y": {
+            "Max": 1,
+            "Min": 1
+          }
+        }
+      },
+      "50": {
+        "Opacity": 0.364
+      },
+      "100": {
+        "Opacity": 0,
+        "Color": "#f8ff00",
+        "Scale": {
+          "X": {
+            "Min": 0,
+            "Max": 0.3
+          },
+          "Y": {
+            "Max": 0.3,
+            "Min": 0
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 0.5,
+      "Color": "#ffffff",
+      "Scale": {
+        "X": {
+          "Min": 0.5,
+          "Max": 0.6
+        },
+        "Y": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "Rotation": {
+        "Y": {
+          "Min": 90,
+          "Max": 90
+        }
+      }
+    }
+  },
+  "RenderMode": "Erosion",
+  "SpawnRate": {
+    "Min": 10,
+    "Max": 10
+  },
+  "SpawnBurst": false,
+  "MaxConcurrentParticles": 30,
+  "ParticleLifeSpan": {
+    "Min": 0.4,
+    "Max": 0.4
+  },
+  "ParticleRotateWithSpawner": true,
+  "IsLowRes": false,
+  "LightInfluence": 0.1,
+  "UseEmitDirection": false,
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 1,
+      "Max": 15
+    },
+    "Yaw": {
+      "Min": 4,
+      "Max": 7
+    }
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": -0.1,
+      "Max": 0.1
+    }
+  },
+  "ParticleRotationInfluence": "Velocity",
+  "TrailSpawnerPositionMultiplier": 0.532,
+  "TrailSpawnerRotationMultiplier": 0.528
+}

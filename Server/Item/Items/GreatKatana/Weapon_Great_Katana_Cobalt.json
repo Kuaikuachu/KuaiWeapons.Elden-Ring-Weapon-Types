@@ -1,0 +1,23 @@
+{
+  "Parent": "Template_Great_Katana",
+  "Quality": "Rare",
+  "ItemLevel": 15,
+  "TranslationProperties": {
+    "Name": "Cobalt Great Katana"
+  },
+  "Model": "Items/Weapons/GreatKatana/Cobalt.blockymodel",
+  "Texture": "Items/Weapons/GreatKatana/Cobalt_Great_Katana.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Great_Katana_Cobalt.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      58,
+      71,
+      28
+    ],
+    "Translation": [
+      -45,
+      -44
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Type": "Charging",
+  "DisplayProgress": false,
+  "Next": {
+    "0": "Weapon_Great_Katana_Primary_Chain",
+    "0.2": {
+      "Type": "Replace",
+      "Var": "Heavy_StaminaCondition",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Heavy_StaminaCondition"
+        ]
+      }
+    }
+  }
+}

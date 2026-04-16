@@ -1,0 +1,46 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Dragonwound_Death_Big_Star"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Big_Flash_Glow"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Sparks_Out"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Sparks_Linger"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Sparks_Radial"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Lines"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Shockwave"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Shockwave2"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Shockwave_Ground"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Flames"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Glow"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Smoke_Spikes"
+    },
+    {
+      "SpawnerId": "Dragonwound_Death_Flame_Ground"
+    }
+  ],
+  "BoundingRadius": 100.0,
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

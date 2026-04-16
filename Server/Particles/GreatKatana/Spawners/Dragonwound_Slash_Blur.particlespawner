@@ -1,0 +1,67 @@
+{
+  "Particle": {
+    "Texture": "Particles/Textures/Kuaikuachu/wave_blurry.png",
+    "FrameSize": {
+      "Width": 768,
+      "Height": 512
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Color": "#00ffd7"
+      },
+      "50": {
+        "Opacity": 0.692
+      },
+      "100": {
+        "Opacity": 0,
+        "Color": "#fff200"
+      }
+    },
+    "InitialAnimationFrame": {
+      "Opacity": 0.5,
+      "Color": "#ffffff",
+      "Scale": {
+        "X": {
+          "Min": 0.4,
+          "Max": 0.4
+        },
+        "Y": {
+          "Min": 2,
+          "Max": 2
+        }
+      },
+      "Rotation": {
+        "Y": {
+          "Min": 80,
+          "Max": 100
+        }
+      }
+    }
+  },
+  "RenderMode": "BlendAdd",
+  "SpawnRate": {
+    "Max": 100,
+    "Min": 100
+  },
+  "SpawnBurst": false,
+  "MaxConcurrentParticles": 10,
+  "ParticleLifeSpan": {
+    "Min": 0.1,
+    "Max": 0.4
+  },
+  "ParticleRotateWithSpawner": true,
+  "IsLowRes": false,
+  "LightInfluence": 0.1,
+  "UseEmitDirection": false,
+  "InitialVelocity": {
+    "Speed": {
+      "Min": 4,
+      "Max": 10
+    },
+    "Yaw": {
+      "Min": -20,
+      "Max": 20
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Great_Katana_Stab_Trail_Glow",
+      "PositionOffset": {
+        "Z": 0,
+        "X": -1.5
+      },
+      "FixedRotation": false
+    },
+    {
+      "SpawnerId": "Great_Katana_Stab_Trail_Lines",
+      "FixedRotation": false,
+      "PositionOffset": {
+        "Z": 0,
+        "X": -1.5
+      }
+    }
+  ]
+}

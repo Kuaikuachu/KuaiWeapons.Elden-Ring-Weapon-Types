@@ -1,0 +1,76 @@
+{
+  "Type": "ApplyForce",
+  "MouseSensitivityAdjustmentTarget": 0.25,
+  "MouseSensitivityAdjustmentDuration": 0.1,
+  "Effects": {
+    "WorldSoundEventId": "SFX_Effect_Burn_World",
+    "LocalSoundEventId": "SFX_Effect_Burn_Local",
+    "ItemAnimationId": "DragonwoundJump",
+    "CameraEffect": "Battleaxe_Downstrike_Jump",
+    "Trails": [
+      {
+        "TrailId": "Medium_Signature",
+        "TargetEntityPart": "Self",
+        "TargetNodeName": "KatanaTip",
+        "RotationOffset": {
+          "Roll": 90
+        }
+      }
+    ],
+    "Particles": [
+      {
+        "SystemId": "Dragonwound_Sword_Flame",
+        "TargetEntityPart": "Self",
+        "TargetNodeName": "Handle"
+      }
+    ]
+  },
+  "AdjustVertical": true,
+  "VerticalClamp": [
+    10,
+    30
+  ],
+  "WaitForGround": true,
+  "Force": 18,
+  "Direction": {
+    "X": 0,
+    "Y": 2,
+    "Z": -1
+  },
+  "ChangeVelocityType": "Set",
+  "VelocityConfig": {
+    "GroundResistance": 0.94,
+    "GroundResistanceMax": 0.82,
+    "Threshold": 3.0,
+    "Style": "Linear",
+    "AirResistanceMax": 1,
+    "AirResistance": 0.984
+  },
+  "RunTime": 0.37,
+  "Next": {
+    "Type": "Simple",
+    "Effects": {
+      "ItemAnimationId": "DragonwoundFall",
+      "Particles": [
+        {
+          "SystemId": "Dragonwound_Sword_Flame",
+          "TargetEntityPart": "Self",
+          "TargetNodeName": "Handle"
+        }
+      ],
+      "Trails": [
+        {
+          "TrailId": "Medium_Signature",
+          "TargetEntityPart": "Self",
+          "TargetNodeName": "KatanaTip",
+          "RotationOffset": {
+            "Roll": 90
+          }
+        }
+      ]
+    },
+    "RunTime": 0.3,
+    "Next": "Weapon_Great_Katana_Signature_Dragonwound_Selector"
+  },
+  "GroundNext": "Weapon_Great_Katana_Signature_Dragonwound_Selector"
+}

@@ -1,0 +1,46 @@
+{
+  "Type": "Chaining",
+  "ChainingAllowance": 2.9,
+  "Next": [
+    {
+      "Type": "Replace",
+      "Var": "Swing_Down_Left",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Swing_Down_Left"
+        ]
+      }
+    },
+    {
+      "Type": "Replace",
+      "Var": "Swing_Down_Left",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Stab_From_Left"
+        ]
+      }
+    },
+    {
+      "Type": "Replace",
+      "Var": "Swing_Down_Left",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Swing_Up_Left"
+        ]
+      }
+    },
+    {
+      "Type": "Replace",
+      "Var": "Swing_Down_Left",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Swing_Down"
+        ]
+      }
+    }
+  ]
+}

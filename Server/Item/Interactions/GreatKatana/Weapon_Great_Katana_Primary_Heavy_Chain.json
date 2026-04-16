@@ -1,0 +1,26 @@
+{
+  "Type": "Chaining",
+  "ChainingAllowance": 2.9,
+  "Next": [
+    {
+      "Type": "Replace",
+      "Var": "Heavy_Swing_Left",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Heavy_Swing_Left_Charge"
+        ]
+      }
+    },
+    {
+      "Type": "Replace",
+      "Var": "Heavy_Swing_Right",
+      "DefaultOk": true,
+      "DefaultValue": {
+        "Interactions": [
+          "Weapon_Great_Katana_Primary_Heavy_Swing_Right_Charge"
+        ]
+      }
+    }
+  ]
+}
