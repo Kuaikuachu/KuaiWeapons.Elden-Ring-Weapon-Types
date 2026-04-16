@@ -15,7 +15,7 @@
   "ItemLevel": 15,
   "Interactions": {
     "Primary": "Root_Weapon_Great_Katana_Primary",
-    "Secondary": "Root_Weapon_Battleaxe_Secondary_Guard",
+    "Secondary": "Root_Weapon_Great_Katana_Secondary_Guard",
     "Ability1": "Root_Weapon_Great_Katana_Signature_Dragonwound"
   },
   "IconProperties": {

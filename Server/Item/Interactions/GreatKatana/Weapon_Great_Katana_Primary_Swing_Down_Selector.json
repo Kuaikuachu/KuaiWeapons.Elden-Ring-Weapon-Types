@@ -5,26 +5,26 @@
     "Trails": [
       {
         "PositionOffset": {
-          "X": 2,
           "Y": 0,
-          "Z": 0
+          "Z": 0,
+          "X": -0.3
         },
-        "TargetNodeName": "Handle",
+        "TargetNodeName": "KatanaTip",
         "TrailId": "Medium_Sword_Basic",
         "RotationOffset": {
-          "Roll": 90.0
+          "Roll": 90
         }
       },
       {
         "PositionOffset": {
-          "X": 2.2,
           "Y": 0,
-          "Z": 0
+          "Z": 0,
+          "X": -0.3
         },
-        "TargetNodeName": "Handle",
+        "TargetNodeName": "KatanaTip",
         "TrailId": "Sword_Distortion",
         "RotationOffset": {
-          "Roll": 90.0
+          "Roll": 90
         }
       }
     ],
@@ -37,10 +37,10 @@
     "ExtendTop": 0.5,
     "ExtendBottom": 0.5,
     "StartDistance": 0.1,
-    "EndDistance": 3,
+    "EndDistance": 3.5,
     "Length": 90,
     "RollOffset": 90,
-    "YawStartOffset": -45
+    "YawStartOffset": -50
   },
   "HitBlock": {
     "Interactions": [

@@ -19,5 +19,87 @@
       -45,
       -44
     ]
+  },
+  "InteractionVars": {
+    "Swing_Down_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Swing_Down_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Stab_From_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Stab_From_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Swing_Up_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Swing_Down_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Swing_Down_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Heavy_Swing_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Heavy_Swing_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 12
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Sword_T2_Impact",
+            "LocalSoundEventId": "SFX_Sword_T2_Impact"
+          }
+        }
+      ]
+    }
   }
 }

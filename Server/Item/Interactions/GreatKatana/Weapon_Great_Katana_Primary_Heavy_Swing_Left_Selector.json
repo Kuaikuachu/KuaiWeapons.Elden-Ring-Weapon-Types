@@ -27,16 +27,15 @@
     "ExtendTop": 0.5,
     "ExtendBottom": 0.5,
     "StartDistance": 0.1,
-    "EndDistance": 3,
-    "Length": 90,
-    "RollOffset": 50,
-    "YawStartOffset": -45
+    "EndDistance": 3.5,
+    "Length": 130,
+    "YawStartOffset": -60
   },
   "HitBlock": {
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Down_Left_Hit_Block",
+        "Var": "Heavy_Swing_Hit_Block",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
@@ -50,11 +49,11 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Down_Left_Damage",
+        "Var": "Heavy_Swing_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
-            "Weapon_Battleaxe_Primary_Swing_Down_Left_Damage"
+            "Weapon_Great_Katana_Primary_Heavy_Swing_Damage"
           ]
         }
       }

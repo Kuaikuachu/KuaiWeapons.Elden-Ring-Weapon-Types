@@ -1,0 +1,27 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Battleaxe_Bash_Shockwave",
+      "RotationOffset": {
+        "Yaw": 50
+      },
+      "PositionOffset": {
+        "Y": -0.2
+      }
+    },
+    {
+      "SpawnerId": "Battleaxe_Bash_Sparks",
+      "PositionOffset": {
+        "X": 0,
+        "Y": -0.1
+      },
+      "RotationOffset": {
+        "Yaw": 50
+      }
+    },
+    {
+      "SpawnerId": "Battleaxe_Bash_Dash"
+    }
+  ],
+  "IsImportant": false
+}

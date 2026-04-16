@@ -106,7 +106,10 @@
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/GreatKatana/Guard_FPS.blockyanim"
     },
     "GuardBash": {
-      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/GreatKatana/Guard_Bash.blockyanim"
+      "ThirdPerson": "Characters/Animations/Items/Dual_Handed/GreatKatana/Guard_Bash.blockyanim",
+      "FirstPerson": "Characters/Animations/Items/Dual_Handed/GreatKatana/Guard_Bash_FPS.blockyanim",
+      "ThirdPersonFace": "Characters/Animations/Expressions/Angry.blockyanim",
+      "ThirdPersonMoving": "Characters/Animations/Items/Dual_Handed/GreatKatana/Guard_Bash_Walk.blockyanim"
     },
     "SwimIdle": {
       "FirstPerson": "Characters/Animations/Items/Dual_Handed/Battleaxe/Swim/Swim_Idle_FPS.blockyanim",

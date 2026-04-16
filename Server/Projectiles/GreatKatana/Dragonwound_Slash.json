@@ -4,7 +4,7 @@
   "PitchAdjustShot": true,
   "SticksVertically": true,
   "TimeToLive": 2,
-  "Damage": 60,
+  "Damage": 20,
   "DeathParticles": {
     "SystemId": "Dragonwound_Death",
     "Scale": 2
@@ -14,9 +14,8 @@
   "ExplosionConfig": {
     "DamageEntities": true,
     "DamageBlocks": false,
-    "BlockDamageRadius": 20,
     "EntityDamageRadius": 5,
-    "EntityDamageFalloff": 1.0,
+    "EntityDamageFalloff": 0.4,
     "Knockback": {
       "Type": "Point",
       "VelocityConfig": {

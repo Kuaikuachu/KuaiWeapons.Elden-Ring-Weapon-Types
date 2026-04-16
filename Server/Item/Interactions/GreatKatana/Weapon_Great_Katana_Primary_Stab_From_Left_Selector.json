@@ -36,7 +36,7 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Down_Left_Hit_Block",
+        "Var": "Stab_From_Left_Hit_Block",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
@@ -50,7 +50,7 @@
     "Interactions": [
       {
         "Type": "Replace",
-        "Var": "Swing_Down_Left_Damage",
+        "Var": "Stab_From_Left_Damage",
         "DefaultOk": true,
         "DefaultValue": {
           "Interactions": [
