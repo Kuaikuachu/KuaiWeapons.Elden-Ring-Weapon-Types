@@ -20,13 +20,13 @@
       "Width": 32,
       "Height": 32
     },
-    "ScaleRatioConstraint": "None",
+    "ScaleRatioConstraint": "OneToOne",
     "SoftParticles": "Require",
     "UVOption": "None",
     "Animation": {
       "0": {
         "FrameIndex": {
-          "Min": 0,
+          "Min": 3,
           "Max": 3
         },
         "Scale": {
@@ -103,6 +103,22 @@
           "Max": 0.6
         }
       }
+    },
+    "CollisionAnimationFrame": {
+      "FrameIndex": {
+        "Min": 0,
+        "Max": 3
+      },
+      "Scale": {
+        "X": {
+          "Min": 0.15,
+          "Max": 0.6
+        },
+        "Y": {
+          "Min": 0.1,
+          "Max": 0.6
+        }
+      }
     }
   },
   "SpawnBurst": true,
@@ -114,21 +130,10 @@
       "Max": 2
     },
     "Y": {
-      "Max": 0.3
+      "Max": 0.8,
+      "Min": 0.5
     }
   },
-  "Attractors": [
-    {
-      "DampingMultiplier": {
-        "Y": 1,
-        "X": 0.9,
-        "Z": 0.9
-      },
-      "LinearImpulse": {
-        "Y": -0.2
-      }
-    }
-  ],
   "InitialVelocity": {
     "Pitch": {
       "Min": 90.0,
@@ -137,15 +142,15 @@
     "Yaw": {
       "Min": -180.0,
       "Max": 180.0
-    },
-    "Speed": {
-      "Min": 0.05,
-      "Max": 0.2
     }
   },
   "LifeSpan": 1,
   "TotalParticles": {
     "Min": 50,
     "Max": 50
+  },
+  "ParticleCollision": {
+    "BlockType": "Solid",
+    "Action": "Linger"
   }
 }

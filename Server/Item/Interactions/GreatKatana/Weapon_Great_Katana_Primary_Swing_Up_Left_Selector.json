@@ -6,8 +6,7 @@
       {
         "PositionOffset": {
           "Y": 0,
-          "Z": 0,
-          "X": -0.3
+          "Z": 0
         },
         "TargetNodeName": "KatanaTip",
         "TrailId": "Medium_Sword_Basic",
@@ -18,8 +17,7 @@
       {
         "PositionOffset": {
           "Y": 0,
-          "Z": 0,
-          "X": -0.3
+          "Z": 0
         },
         "TargetNodeName": "KatanaTip",
         "TrailId": "Sword_Distortion",
@@ -73,6 +71,14 @@
   "Next": {
     "Type": "Simple",
     "$Comment": "Pad the interaction length",
-    "RunTime": 0.45
+    "RunTime": 0.2,
+    "Next": {
+      "Type": "Simple",
+      "Effects": {
+        "Particles": [],
+        "Trails": []
+      },
+      "RunTime": 0.15
+    }
   }
 }

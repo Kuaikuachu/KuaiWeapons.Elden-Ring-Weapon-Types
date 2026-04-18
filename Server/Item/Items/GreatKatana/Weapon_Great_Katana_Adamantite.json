@@ -1,0 +1,159 @@
+{
+  "Parent": "Template_Great_Katana",
+  "Quality": "Rare",
+  "ItemLevel": 40,
+  "TranslationProperties": {
+    "Name": "server.items.Weapon_Great_Katana_Adamantite.name"
+  },
+  "Model": "Items/Weapons/GreatKatana/Adamantite.blockymodel",
+  "Texture": "Items/Weapons/GreatKatana/Adamantite_Great_Katana.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Great_Katana_Adamantite.png",
+  "Recipe": {
+    "TimeSeconds": 4,
+    "KnowledgeRequired": false,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Adamantite",
+        "Quantity": 16
+      },
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 5
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Cindercloth",
+        "Quantity": 3
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Great_Katana"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      58,
+      71,
+      28
+    ],
+    "Translation": [
+      -45,
+      -44
+    ]
+  },
+  "InteractionVars": {
+    "Swing_Down_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Swing_Down_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 28
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Stab_From_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Stab_From_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 44
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Swing_Up_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Swing_Up_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 33
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Swing_Down_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Swing_Down_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 55
+            }
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Heavy_Swing_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Primary_Heavy_Swing_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 40
+            }
+          },
+          "EntityStatsOnHit": [
+            {
+              "EntityStatId": "SignatureEnergy",
+              "Amount": 2
+            }
+          ],
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Battleaxe_T2_Impact",
+            "LocalSoundEventId": "SFX_Battleaxe_T2_Impact"
+          }
+        }
+      ]
+    },
+    "Guard_Wield": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Secondary_Guard_Wield",
+          "StaminaCost": {
+            "Value": 15.56,
+            "CostType": "Damage"
+          }
+        }
+      ]
+    },
+    "Dragonwound_Projectile": {
+      "Interactions": [
+        {
+          "Parent": "Weapon_Great_Katana_Signature_Dragonwound_Selector",
+          "ProjectileId": "Dragonwound_Slash_Adamantite"
+        }
+      ]
+    }
+  },
+  "MaxDurability": 180
+}

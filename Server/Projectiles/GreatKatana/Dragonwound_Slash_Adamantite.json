@@ -1,0 +1,7 @@
+{
+  "Parent": "Dragonwound_Slash_Template",
+  "ExplosionConfig": {
+    "EntityDamage": 134
+  },
+  "Damage": 72
+}

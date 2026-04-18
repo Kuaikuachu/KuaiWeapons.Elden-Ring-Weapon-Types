@@ -6,8 +6,7 @@
       {
         "PositionOffset": {
           "Y": 0,
-          "Z": 0,
-          "X": -0.3
+          "Z": 0
         },
         "TargetNodeName": "KatanaTip",
         "TrailId": "Medium_Sword_Basic",
@@ -18,8 +17,7 @@
       {
         "PositionOffset": {
           "Y": 0,
-          "Z": 0,
-          "X": -0.3
+          "Z": 0
         },
         "TargetNodeName": "KatanaTip",
         "TrailId": "Sword_Distortion",

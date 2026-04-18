@@ -20,7 +20,7 @@
       "Direction": {
         "X": 0,
         "Y": 2,
-        "Z": 1
+        "Z": -1
       },
       "Force": 7,
       "VelocityType": "Set"
