@@ -1,9 +1,15 @@
 {
   "Group": "KuaiWeapons",
-  "Name": "Elden Ring Weapon Types",
-  "Version": "0.1.0",
-  "Description": "",
-  "Authors": [],
+  "Name": "KuaiGreatKatana",
+  "Version": "1.0.0",
+  "Description": "Adds a completely new custom weapon type - Great Katana",
+  "Authors": [
+    {
+      "Name": "Kuai",
+      "Email": "",
+      "Url": ""
+    }
+  ],
   "Website": "",
   "ServerVersion": "2026.03.26-89796e57b",
   "Dependencies": {},

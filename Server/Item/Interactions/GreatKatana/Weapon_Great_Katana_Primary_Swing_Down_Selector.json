@@ -76,10 +76,34 @@
       "Type": "Simple",
       "RunTime": 0.2,
       "Effects": {
-        "Trails": [
-          {}
-        ]
+        "Trails": []
       }
+    },
+    "Effects": {
+      "Trails": [
+        {
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0
+          },
+          "TargetNodeName": "KatanaTip",
+          "TrailId": "Medium_Sword_Basic",
+          "RotationOffset": {
+            "Roll": 90
+          }
+        },
+        {
+          "PositionOffset": {
+            "Y": 0,
+            "Z": 0
+          },
+          "TargetNodeName": "KatanaTip",
+          "TrailId": "Sword_Distortion",
+          "RotationOffset": {
+            "Roll": 90
+          }
+        }
+      ]
     }
   }
 }

@@ -15,24 +15,16 @@
     "DamageEntities": true,
     "DamageBlocks": false,
     "EntityDamageRadius": 5,
-    "EntityDamageFalloff": 0.4,
+    "EntityDamageFalloff": 0.2,
     "Knockback": {
       "Type": "Point",
-      "VelocityConfig": {
-        "AirResistance": 0.97,
-        "AirResistanceMax": 0.96,
-        "GroundResistance": 0.94,
-        "GroundResistanceMax": 0.3,
-        "Threshold": 3.0
-      },
-      "Force": 5,
-      "VelocityType": "Set"
+      "Force": 12,
+      "VelocityType": "Add"
     }
   },
   "Appearance": "Dragonwound_Slash_Model",
   "TerminalVelocity": 30,
   "MuzzleVelocity": 30,
-  "DeadTime": 0,
   "Gravity": 15,
   "ImpactSlowdown": 0,
   "DeadTimeMiss": 0,
